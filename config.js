@@ -2,7 +2,8 @@ const StyleDictionary = require('style-dictionary');
 
 module.exports = {
   "source": [
-    "tokens/tokens.json",
+    "tokens/tokens-library-1.json",
+    "tokens/tokens-library-2.json",
     
   ],
   "platforms": {
