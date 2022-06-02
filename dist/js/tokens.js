@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Jun 2022 20:33:23 GMT
+ * Generated on Thu, 02 Jun 2022 21:22:38 GMT
  */
 
 export const colorPurple100 = "#f9f7fdff";
