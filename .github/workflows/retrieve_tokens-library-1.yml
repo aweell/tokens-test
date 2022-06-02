@@ -46,6 +46,7 @@ jobs:
           commit-message: "Updated library 1"
           title: "Update in library 1"
           body: "Design tokens have been updated via Figma and need to be reviewed."
+          branch-suffix: random
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
