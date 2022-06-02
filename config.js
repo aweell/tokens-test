@@ -39,3 +39,5 @@ module.exports = {
     }
   }
 };
+
+StyleDictionary.buildAllPlatforms()
