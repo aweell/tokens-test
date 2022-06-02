@@ -40,4 +40,4 @@ module.exports = {
   }
 };
 
-StyleDictionary.buildAllPlatforms()
+StyleDictionary.build(module.exports);
