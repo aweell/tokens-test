@@ -1,10 +1,10 @@
 # Name of the action visible in the action overview
-name: Transform tokens send from figma
+name: Library 2
 # this triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
 on:
   repository_dispatch:
     # and the event_type property from the request body is 'update-tokens'
-    types: update-tokens
+    types: update-tokens-library-2
 # the following defines the jon that is run if the above is true
 jobs:
   build:
@@ -43,9 +43,10 @@ jobs:
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "Tokens updated"
-          title: "Design tokens updated"
+          commit-message: "Update in library 2"
+          title: "Update from library 2"
           body: "Design tokens have been updated via Figma and need to be reviewed."
+          branch-suffix: random
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
