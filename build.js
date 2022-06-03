@@ -5,7 +5,7 @@ const StyleDictionaryPackage = require('style-dictionary');
 function getStyleDictionaryConfig(theme, platform) {
   return {
     "source": [
-      `tokens/${theme}/*.json`,
+      `tokens/themes/${theme}/*.json`,
       "tokens/globals/**/*.json",
       `tokens/platforms/${platform}/*.json`
     ],
