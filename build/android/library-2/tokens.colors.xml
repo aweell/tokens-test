@@ -2,9 +2,18 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 02 Jun 2022 22:52:19 GMT
+  Generated on Fri, 03 Jun 2022 07:24:15 GMT
 -->
 <resources>
   <color name="color_library_2_purple">#ff6345b9</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_100">#fffefefe</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_200">#ffe7e7ee</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_300">#ffd1cfdf</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_400">#ffb5b2cf</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_500">#ff9a94c3</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_600">#ff8278ba</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_700">#ff6f5cb7</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_800">#ff57409d</color>
+  <color name="color_color_ramp_library_2_purple_library_2_purple_900">#ff4e3c89</color>
   
 </resources>

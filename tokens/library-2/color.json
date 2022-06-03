@@ -10,6 +10,109 @@
           "exportKey": "color"
         }
       }
+    },
+    "color ramp": {
+      "library-2-purple": {
+        "library-2-purple 100": {
+          "description": "library-2-purple / library-2-purple 100\n#fefefe\n1.01:1\n(N/A) Large text\n(N/A) Normal text",
+          "type": "color",
+          "value": "#fefefeff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2cb1b76c9e49f3daee45e8adce8726a79b849157,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 200": {
+          "description": "library-2-purple / library-2-purple 200\n#e7e7ee\n1.23:1\n(N/A) Large text\n(N/A) Normal text",
+          "type": "color",
+          "value": "#e7e7eeff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:904b4e46d5538163c34efbae0a5fe250e18434ca,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 300": {
+          "description": "library-2-purple / library-2-purple 300\n#d1cfdf\n1.53:1\n(N/A) Large text\n(N/A) Normal text",
+          "type": "color",
+          "value": "#d1cfdfff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:40eadb2c2e0e2008ecfb3a8e7fb03d27295f0d95,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 400": {
+          "description": "library-2-purple / library-2-purple 400\n#b5b2cf\n2.05:1\n(N/A) Large text\n(N/A) Normal text",
+          "type": "color",
+          "value": "#b5b2cfff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:dc147e2bb9081c35fdf78d304f5a9b43f85093f0,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 500": {
+          "description": "library-2-purple / library-2-purple 500\n#9a94c3\n2.84:1\n(N/A) Large text\n(N/A) Normal text",
+          "type": "color",
+          "value": "#9a94c3ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:542547fdb701e8fd453b877203f53223e8a7fd9f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 600": {
+          "description": "library-2-purple / library-2-purple 600\n#8278ba\n3.93:1\n(AA) Large text\n(N/A) Normal text",
+          "type": "color",
+          "value": "#8278baff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1cc13018b0ca2ce6f27e9565365e67d32486a57a,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 700": {
+          "description": "library-2-purple / library-2-purple 700\n#6f5cb7\n5.40:1\n(AAA) Large text\n(AA) Normal text",
+          "type": "color",
+          "value": "#6f5cb7ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:687b461ea637272a5cf2f31252df40af8cc65084,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 800": {
+          "description": "library-2-purple / library-2-purple 800\n#57409d\n8.00:1\n(AAA) Large text\n(AAA) Normal text",
+          "type": "color",
+          "value": "#57409dff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e3770673c09f50894485c52ecea76a51d7a76487,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "library-2-purple 900": {
+          "description": "library-2-purple / library-2-purple 900\n#4e3c89\n9.01:1\n(AAA) Large text\n(AAA) Normal text",
+          "type": "color",
+          "value": "#4e3c89ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:24ae5d5b474a679a39204711012decbea7001517,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
     }
   }
 }
