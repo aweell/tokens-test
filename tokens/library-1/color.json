@@ -21,6 +21,17 @@
           "exportKey": "color"
         }
       }
+    },
+    "library-1-pink": {
+      "description": "",
+      "type": "color",
+      "value": "#eb1294ff",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:fb6ba943f2b2e04e5749b04f9e30a4cc1ba0724f,",
+          "exportKey": "color"
+        }
+      }
     }
   }
 }
