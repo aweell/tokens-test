@@ -10,6 +10,17 @@
           "exportKey": "color"
         }
       }
+    },
+    "library-1-blue": {
+      "description": "",
+      "type": "color",
+      "value": "#4a12ebff",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:eff8c785d71dd9b83b5ad33f5ae5c76a707813e0,",
+          "exportKey": "color"
+        }
+      }
     }
   }
 }
