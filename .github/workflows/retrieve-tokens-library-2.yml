@@ -29,25 +29,4 @@ jobs:
           json: ${{ github.event.client_payload.tokens }}
           # it uses the directory named "tokens" to store this json file
           dir: "tokens/library-2"
-      # we now initialize node to run amazon style dictionary to compile the tokens
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
-        with:
-          # we use version 14.x of node
-          node-version: 14.x
-      # We now run npm i to install all dependencies and run the "build" script that is defined in the package.json
-      - name: Transform design tokens
-        run:
-          "npm i && npm run build"
-          # We now create a pull request
-      - name: Create PR
-        uses: peter-evans/create-pull-request@v3
-        with:
-          commit-message: "Update in library 2"
-          title: "Update from library 2"
-          body: "Design tokens have been updated via Figma and need to be reviewed."
-          branch-suffix: random
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # this parameter is optional and defaults to master but I am using main
-          BRANCH_NAME: "main"
+   
