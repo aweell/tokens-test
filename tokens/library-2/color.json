@@ -1,20 +1,5 @@
 {
-  "color": {
-    "library-2-purple": {
-      "description": "",
-      "type": "color",
-      "value": "#6345b9",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:aa7666592e5f0f6a380150a377a5ed55efecd64b,",
-          "exportKey": "color"
-        }
-      }
-    },
-    "test-01": {
-      "value": "#ffee00ab",
-      "type": "color"
-    },
+   
     "Color Ramp": {
       "purple": {
         "purple 100": {
@@ -63,7 +48,7 @@
           "description": "purple / purple 900\n#503795\n9.05:1\n(AAA) Large text\n(AAA) Normal text"
         }
       }
-    }
-  },
+    },
+
   "$themes": []
 }
