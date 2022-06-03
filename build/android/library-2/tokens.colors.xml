@@ -2,9 +2,19 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 02 Jun 2022 22:52:19 GMT
+  Generated on Fri, 03 Jun 2022 13:45:29 GMT
 -->
 <resources>
   <color name="color_library_2_purple">#ff6345b9</color>
+  <color name="color_test_01">#abffee00</color>
+  <color name="color_color_ramp_purple_purple_100">#fff3f1fa</color>
+  <color name="color_color_ramp_purple_purple_200">#ffe5e0f4</color>
+  <color name="color_color_ramp_purple_purple_300">#ffd1c8eb</color>
+  <color name="color_color_ramp_purple_purple_400">#ffbaade0</color>
+  <color name="color_color_ramp_purple_purple_500">#ffa492d6</color>
+  <color name="color_color_ramp_purple_purple_600">#ff8e78cd</color>
+  <color name="color_color_ramp_purple_purple_700">#ff7a60c4</color>
+  <color name="color_color_ramp_purple_purple_800">#ff684abc</color>
+  <color name="color_color_ramp_purple_purple_900">#ff503795</color>
   
 </resources>
