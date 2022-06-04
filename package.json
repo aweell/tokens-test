@@ -2,12 +2,12 @@
   "name": "tokens-test",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "index.js",
   "files": [
     "build"
   ],
   "scripts": {
-    "test": "echo \"No test specified\"",
+    "test": "mocha ./test/*.js",
     "build": "node ./build.js"
   },
   "repository": {
@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/aweell/tokens-test#readme",
   "devDependencies": {
+    "mocha": "^10.0.0",
     "style-dictionary": "^3.7.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
   }
 }
