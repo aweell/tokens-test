@@ -39,6 +39,7 @@ jobs:
           branch-suffix: random
           branch: update-tokens
           base: release
+          delete-branch: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
