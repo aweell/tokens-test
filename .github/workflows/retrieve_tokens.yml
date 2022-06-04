@@ -37,6 +37,7 @@ jobs:
           title: "Update theme tokens"
           body: "Design tokens have been updated via Figma and need to be reviewed."
           branch-suffix: random
+          branch: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
