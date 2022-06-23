@@ -1,15 +1,15 @@
 # Name of the action visible in the action overview
-name: Library 1
+name: Retrieve tokens
 # this triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
 on:
   repository_dispatch:
     # and the event_type property from the request body is 'update-tokens'
-    types: update-tokens-library-1
+    types: retrieve-tokens
 # the following defines the jon that is run if the above is true
 jobs:
   build:
     # the name for the entire job
-    name: Library 1
+    name: Retrieve tokens
     # we run this on ubuntu, leave this alone, if you don't have a good reason to change it
     runs-on: ubuntu-latest
     steps:
@@ -28,26 +28,17 @@ jobs:
           # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
           # it uses the directory named "tokens" to store this json file
-          dir: "tokens/library-1"
-      # we now initialize node to run amazon style dictionary to compile the tokens
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
-        with:
-          # we use version 14.x of node
-          node-version: 14.x
-      # We now run npm i to install all dependencies and run the "build" script that is defined in the package.json
-      - name: Transform design tokens
-        run:
-          "npm i && npm run build"
-          # We now create a pull request
+          dir: "tokens/themes/theme-1"
+      # We now create a pull request
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "Updated library 1"
-          title: "Update in library 1"
+          commit-message: "Update theme tokens"
+          title: "Update theme tokens"
           body: "Design tokens have been updated via Figma and need to be reviewed."
           branch-suffix: random
+          branch: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
-          BRANCH_NAME: "main"
+          BRANCH_NAME: "release"
