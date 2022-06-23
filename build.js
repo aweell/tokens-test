@@ -18,6 +18,17 @@ function getStyleDictionaryConfig(theme, platform) {
           "format": "scss/variables"
         }]
       },
+      "js": {
+        "transformGroup": "js",
+        "buildPath": `build/js/${theme}/`,
+        "files": [
+          {
+            "destination": "tokens.js",
+            "format": "javascript/es6"
+          }
+        ],
+
+      },
       "android": {
         "transformGroup": "android",
         "buildPath": `build/android/${theme}/`,
@@ -49,7 +60,7 @@ console.log('Build started...');
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN THEMES AND PLATFORMS
 
 ['theme-1', 'theme-2'].map(function (theme) {
-  ['web', 'ios', 'android'].map(function (platform) {
+  ['web', 'js', 'ios', 'android'].map(function (platform) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${theme}]`);
