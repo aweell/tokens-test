@@ -1,0 +1,37 @@
+{
+  "color": {
+    "library-1-red": {
+      "description": "",
+      "type": "color",
+      "value": "#ff0000ff",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:098a18ddf7331c4b1410744e9d5ea1c1b1215b89,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "library-1-blue": {
+      "description": "",
+      "type": "color",
+      "value": "#4a12ebff",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:eff8c785d71dd9b83b5ad33f5ae5c76a707813e0,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "library-1-pink": {
+      "description": "",
+      "type": "color",
+      "value": "#eb1294ff",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:fb6ba943f2b2e04e5749b04f9e30a4cc1ba0724f,",
+          "exportKey": "color"
+        }
+      }
+    }
+  }
+}

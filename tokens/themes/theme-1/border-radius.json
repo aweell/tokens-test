@@ -1,0 +1,10 @@
+{
+  "border": {
+    "radius-small": {
+      "description": "",
+      "type": "border-radius",
+      "value": "0.25rem"
+    }
+    
+  }
+}
